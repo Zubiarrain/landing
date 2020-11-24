@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family:serif;
+    font-size: 62.5%;
+}
+
+
+a {
+    text-decoration: none;/*no quiero que ninguna etiqueta de ancla tenga decoración (como el subrayado)*/
+    cursor: pointer; /*para que aparezca una mano en mi cursor cuando pase por arriba de todos los elementos ancla*/
+    color: black;
+}
+
+header{
+    width: 100%;  /*LA ETIQUETA HEADER OCUPA TODO EL WITH. SIN EMBARGO, EL NAV NO LO HARÁ*/
+    height: 150px;
+    background-color: #ffc300;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    padding-top: 40px;
+}
+
+header p {
+    font-size: 2rem;
+    opacity: 0.7;
+    padding-top: 15px;
+}
+main {
+    height: 0%;
+    width: 100%;
+    background-color: white;
+}
+
+main .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-container .card {
+    height: 350px;
+    width: 250px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    background-color:white;
+    margin-left: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    padding-left: 20px;
+}
+
+.item-container {
+    padding-left: 30px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.item-container li {
+    padding-top: 10px;
+    color: black;
+    font-size: 1.6rem;
+}
+
+footer {
+    margin-top: 20px;
+    height: 15%;
+    background-color:#A6A49E;
+}
+
+footer .footer-right {
+   color: white;
+   display: flex;
+   justify-content: start;
+   font-size: 1.5rem;
+   margin-left: 20px;
+   list-style: none;
+   padding-top: 10px;
+}
+
+footer .footer-right a {
+    margin-left: 10px;
+    color: white;
+}
+
+footer p {
+    margin-left: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
