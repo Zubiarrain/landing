@@ -52,7 +52,7 @@ main .cards-container {
 }
 
 .cards-container .card {
-    height: 350px;
+    height: 400px;
     width: 250px;
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
     background-color:white;
