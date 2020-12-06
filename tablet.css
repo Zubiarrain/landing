@@ -37,7 +37,7 @@ header p {
 main {
     margin-left: auto;
     margin-right: auto;
-    min-height: calc(100vh - 150px - 65px);
+    min-height: calc(100vh - 150px - 65px - 20px);
     width: 790px;
     background-color: white;
 }
@@ -87,7 +87,6 @@ main .cards-container {
 }
 
 footer {
-    margin-top: 20px;
     height: 65px;
     background-color:#A6A49E;
 }
