@@ -34,7 +34,7 @@ header p {
     padding-top: 15px;
 }
 main {
-    min-height: calc(100vh -150px -65px);
+    min-height: calc(100vh - 150px - 65px);
     width: 100%;
     background-color: white;
 }
