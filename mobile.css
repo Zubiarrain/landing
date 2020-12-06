@@ -84,6 +84,7 @@ main .cards-container {
 }
 
 footer {
+    margin-top: 20px;
     height: 65px;
     background-color:#A6A49E;
 }
