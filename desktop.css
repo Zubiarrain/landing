@@ -35,7 +35,7 @@ header p {
 }
 
 main {
-    min-height: calc(100vh -195px -60px);
+    min-height: calc(100vh - 195px - 60px);
     width: 100%;
     background-color: white;
 }
