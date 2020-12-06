@@ -35,7 +35,7 @@ header p {
 }
 
 main {
-    height: 450px;
+    min-height: calc(100vh -195px -60px);
     width: 100%;
     background-color: white;
 }
@@ -114,5 +114,6 @@ footer p {
     color: white;
     font-size: 1.5rem;
 }
+
 
 
