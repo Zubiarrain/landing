@@ -34,7 +34,7 @@ header p {
     padding-top: 15px;
 }
 main {
-    height: 0%;
+    min-height: calc(100vh -150px -65px);
     width: 100%;
     background-color: white;
 }
@@ -85,7 +85,7 @@ main .cards-container {
 
 footer {
     margin-top: 20px;
-    height: 15%;
+    height: 65px;
     background-color:#A6A49E;
 }
 
