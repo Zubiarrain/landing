@@ -104,7 +104,10 @@ main{
 
 footer {
     background-color:#A6A49E;
-    padding-top: 10px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer p a {
