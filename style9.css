@@ -19,7 +19,7 @@ a {
 body{
     height: 100vh;
     display: grid;
-    grid-template-rows: 250px 1fr 60px;
+    grid-template-rows: 205px 1fr 60px;
 }
 
 header{
@@ -29,7 +29,7 @@ header{
 
 header h1 {
     font-size: 4rem;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 header p {
