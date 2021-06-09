@@ -25,11 +25,13 @@ body{
 header{
     background: #ffc300;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header h1 {
     font-size: 4rem;
-    padding-top: 20px;
 }
 
 header p {
